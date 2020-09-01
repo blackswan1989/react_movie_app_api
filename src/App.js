@@ -7,7 +7,7 @@ function App() {
     <HashRouter>
       <Route path="/about" component={About} />
     </HashRouter>
-  );
+  ); //#6 ROUTING BONUS 6.1 | 2:50
 }
 
 export default App;
