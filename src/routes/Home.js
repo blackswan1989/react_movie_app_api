@@ -1,4 +1,4 @@
-//TODO #4.2 Making THE MOVIE APP | Styleing The Movies
+//TODO #6 ROUTING BONUS
 //https://yts-proxy.now.sh/list_movies.json (http://yts.lt)
 
 import React from "react";
@@ -59,4 +59,4 @@ class Home extends React.Component {
   }
 }
 
-export default App;
+export default Home;
