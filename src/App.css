@@ -10,3 +10,13 @@ body {
   background-color: #eff3f7;
   height: 100%;
 }
+
+#root span {
+  text-align: center;
+}
+
+@media screen and (max-width: 500px) {
+  .container {
+    flex-direction: column;
+  }
+}
