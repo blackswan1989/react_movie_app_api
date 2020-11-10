@@ -86,6 +86,7 @@ body {
 
     .movies .movie {
       font-size: 12px;
+      margin-bottom: 30px;
     }
 
     .movies .movie__title {
