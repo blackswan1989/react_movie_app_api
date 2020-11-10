@@ -20,3 +20,4 @@ https://blackswan1989.github.io/react_movie_app_api/#/about
 - [x] Data: Title, Year, Genres, Summary
 - [x] Detail page: Summary of plot by movie
 - [x] Nav: Home, About
+- [x] Responsive web: samll screen and mobile screen
