@@ -58,7 +58,7 @@ body {
     font-size: 12px;
   }
 
-  @media screen and (max-width: 375px) {
+  @media screen and (max-width: 500px) {
     .nav,
     .sideTitle,
     .sideTitle-git {
@@ -67,10 +67,12 @@ body {
       padding-left: 5px;
       padding-right: 5px;
     }
+
     .movies {
       padding: 10px;
       margin-left: 30px;
     }
+
     .movie img {
       width: 70px;
       top: 10px;
@@ -96,6 +98,34 @@ body {
     .loader {
       font-size: 20px;
       margin-left: 20px;
+    }
+  }
+  @media screen and (max-width: 280px) {
+    .nav,
+    .sideTitle,
+    .sideTitle-git {
+      transform: scale(0.5);
+      left: -13px;
+      margin: 0;
+    }
+    .movies {
+      margin-left: 0px;
+      padding-left: 18px;
+      padding-right: 5px;
+    }
+    .about__container {
+      width: 220px;
+      margin-top: 50px;
+    }
+    .about__container span:first-child {
+      font-size: 12px;
+      line-height: 10px;
+    }
+
+    .about__container span:last-child {
+      display: block;
+      margin-top: 10px;
+      font-size: 10px;
     }
   }
 }
