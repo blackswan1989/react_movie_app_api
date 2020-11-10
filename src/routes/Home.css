@@ -2,13 +2,14 @@
   height: 100%;
   display: flex;
   justify-content: center;
+  transition-duration: 0.5s;
 }
 
 .sideTitle {
   writing-mode: vertical-lr;
   position: fixed;
   left: 0;
-  top: 10px;
+  top: 3%;
   margin-left: 10px;
   cursor: default;
 }
@@ -17,12 +18,12 @@
   writing-mode: vertical-lr;
   position: fixed;
   left: 0;
-  top: 440px;
-  height: 300px;
+  top: 66%;
+  height: 260px;
   margin-left: 5px;
   padding: 20px 10px;
-  box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25),
-    0 8px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
+  /* box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25),
+    0 8px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025); */
   border-radius: 5px;
   z-index: 1;
   transition-duration: 0.5s;
@@ -56,9 +57,10 @@
   flex-wrap: wrap;
   padding: 20px;
   padding-top: 50px;
-  margin-left: 40px;
+  margin-left: 50px;
   width: 100%;
   text-align: left;
+  transition-duration: 0.3s;
 }
 
 .movies .movie {
@@ -74,6 +76,7 @@
   color: white;
   box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25),
     0 8px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
+  transition-duration: 0.3s;
 }
 
 .movie img {
