@@ -34,7 +34,10 @@ class Home extends React.Component {
       <section className="container">
         <h1 className="sideTitle">React Movie API</h1>
         <h1 className="sideTitle-git">
-          <a href="https://github.com/blackswan1989/react_movie_app_api">
+          <a
+            href="https://github.com/blackswan1989/react_movie_app_api"
+            targe="_blank"
+          >
             @blackswan1989
           </a>
         </h1>
