@@ -1,5 +1,4 @@
 .movies .movie {
-  /* background-color: white; */
   margin-bottom: 70px;
   font-weight: 300;
   padding: 20px;
@@ -64,7 +63,6 @@
 .movie .movie__year {
   margin-right: 10px;
   font-size: 14px;
-  color: rgb(231, 231, 231);
 }
 
 .movie__summary {

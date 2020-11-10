@@ -32,6 +32,12 @@ class Home extends React.Component {
     const { isLoading, movies } = this.state;
     return (
       <section className="container">
+        <h1 className="sideTitle">React Movie API</h1>
+        <h1 className="sideTitle-git">
+          <a href="https://github.com/blackswan1989/react_movie_app_api">
+            @blackswan1989
+          </a>
+        </h1>
         {isLoading ? (
           <div className="loader">
             <span className="loader__text">Loading...</span>

@@ -2,7 +2,40 @@
   height: 100%;
   display: flex;
   justify-content: center;
-  /* min-width: 1000px;*/
+}
+
+.sideTitle {
+  writing-mode: vertical-lr;
+  position: fixed;
+  left: 0;
+  top: 10px;
+  margin-left: 10px;
+  cursor: default;
+}
+
+.sideTitle-git {
+  writing-mode: vertical-lr;
+  position: fixed;
+  left: 0;
+  top: 440px;
+  height: 300px;
+  margin-left: 5px;
+  padding: 20px 10px;
+  box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25),
+    0 8px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
+  border-radius: 5px;
+  z-index: 1;
+  transition-duration: 0.5s;
+}
+
+.sideTitle-git:hover a {
+  color: black;
+  transition-duration: 0.3s;
+}
+
+.sideTitle-git a {
+  text-decoration: none;
+  color: white;
 }
 
 .loader {
@@ -11,7 +44,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
   font-weight: 600;
+  font-size: 2rem;
 }
 
 .movies {
@@ -20,7 +55,8 @@
   align-items: flex-start;
   flex-wrap: wrap;
   padding: 20px;
-  padding-top: 70px;
+  padding-top: 50px;
+  margin-left: 40px;
   width: 100%;
   text-align: left;
 }

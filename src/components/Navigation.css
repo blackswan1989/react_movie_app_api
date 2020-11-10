@@ -1,35 +1,36 @@
 .nav {
   position: fixed;
-  bottom: 0px;
-  right: 0px;
+  top: 210px;
+  left: 0px;
+  writing-mode: vertical-lr;
   display: flex;
-  flex-direction: column;
-  background: linear-gradient(to left, #636fa4, #e8cbc0);
-  padding: 10px 20px;
+  /* background: linear-gradient(to left, #636fa4, #e8cbc0); */
+  padding: 20px 10px;
   box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25),
     0 8px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
   border-radius: 5px;
   z-index: 1;
   transition-duration: 0.5s;
+  transform: rotateZ(180deg);
 }
 
 .nav:hover {
   transition: all 0.5s ease-in-out;
-  background: linear-gradient(to right, #636fa4, #e8cbc0);
+  /* background: linear-gradient(to right, #636fa4, #e8cbc0); */
 }
 
 .nav a {
   text-decoration: none;
-  color: #2c2c2c;
   text-transform: uppercase;
-  font-size: 12px;
   text-align: center;
   font-weight: 600;
+  font-size: 26px;
+  color: white;
 }
 
 .nav a:hover {
   transition: 0.2s ease-in-out;
-  color: white;
+  color: black;
 }
 
 .nav a:not(:last-child) {
